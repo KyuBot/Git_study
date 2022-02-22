@@ -24,3 +24,27 @@
   - 하나의 커밋에는 하나의 수정사항, 하나의 이슈를 해결한 내용만 남기기
   - 에러가 발생하지 않는 상태인 경우에만 커밋을 하기
 
+
+
+### Alias
+
+> git config alias.histroy 'log --pretty=online'
+>
+> = git histroy = git log --pretty=online
+
+
+
+### diff
+
+> git diff 커밋A 커밋B
+>
+>  = 두 커밋간의 차이가 보임
+>
+> = git show와 비슷하게 나옴
+
+
+
+
+
+
+
