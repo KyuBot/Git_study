@@ -44,7 +44,28 @@
 
 
 
+### HEAD
 
+> 어떤 커밋 하나를 가리킴
+>
+> : 보통 가장 최근에 한 커밋을 가리킴
+>
+> 매번 더 새로운 커밋을 가리킴
+>
+> => HEAD가 가리키는 것에 따라서 working directory가 바뀐다
+
+- git reset --hard 커밋 아이디
+- 해당 커밋에 따라 working directory가 바뀐다!
+- 이전 커밋으로 돌아갈때 사용
+
+
+
+### git reset
+
+- git add 를 할 때 마다 staging area에 있던 것들은 커밋을 하더라도 그것과 상관없이 계속 남아있는다
+- --hard : working directory, staging area, repository 모두 바뀜 : 바뀐 커밋 이후 다 사라짐
+- --soft :  working directory, staging area 안바뀜, repository 바뀜
+- --mixed : working directory 안바뀜, staging area, repository 바뀜
 
 
 
