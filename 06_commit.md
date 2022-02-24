@@ -66,6 +66,16 @@
 - --hard : working directory, staging area, repository 모두 바뀜 : 바뀐 커밋 이후 다 사라짐
 - --soft :  working directory, staging area 안바뀜, repository 바뀜
 - --mixed : working directory 안바뀜, staging area, repository 바뀜
+- git reset --hard HEAD^ : HEAD가 가리키고 있는 커밋의 바로 이전 커밋을 나타냄
+- git reset --hard HEAD~2 : 2번째 전
 
 
+
+### git tag
+
+> git tag 태그 이름 커밋 아이디
+>
+> git tag : 태그를 조회함
+>
+> git show 태그 이름 : 태그가 달린 커밋을 보여줌
 
