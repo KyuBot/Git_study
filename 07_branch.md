@@ -14,3 +14,14 @@
 - git branch 브랜치명 : 브랜치 생성
 - git branch -d 브랜치명 : 브랜치 삭제
 - git checkout -b 브랜치명 : 브랜치를 생성하면서 이동
+
+
+
+### Merge
+
+- git merge 브랜치명
+
+- confilct 시 : 충돌 나는 두 부분 중 하나만 선택을 해야한다.
+
+  
+
