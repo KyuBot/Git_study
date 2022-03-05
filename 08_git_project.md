@@ -36,3 +36,12 @@
 - git blame 파일명
 - 파일이 수정되었던 부분의 커밋 아이디가 나옴
 - git show 커밋 아이디 
+
+
+
+### git revert
+
+- git revert 커밋 아이디
+- git push 한 것을 취소하다
+- git revert 후 git push를 해야한다
+- git reset을 하고 push를 할 수 없기 때문에 이럴때는 사용 x (git pull을 사용하라고 뜬다)
