@@ -45,3 +45,11 @@
 - git push 한 것을 취소하다
 - git revert 후 git push를 해야한다
 - git reset을 하고 push를 할 수 없기 때문에 이럴때는 사용 x (git pull을 사용하라고 뜬다)
+
+
+
+### 여러 커밋 취소
+
+- git revert 커밋아이디1..커밋아이디2 : 커밋1 다음부터 ->커밋2 까지 커밋이 취소됌
+- 그 후 git push
+
